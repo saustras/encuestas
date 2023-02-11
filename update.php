@@ -1,5 +1,5 @@
 <?php
-include_once 'dbConnection.php';
+include_once '/app/dbConnection.php';
 session_start();
 $email = $_SESSION['email'];
 
