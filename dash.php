@@ -39,7 +39,7 @@
                 <span class="logo">Encuesta online</span>
             </div>
             <?php
-      include_once '/app/dbConnection.php';
+      include_once 'dbConnection.php';
       session_start();
       $email = $_SESSION['email'];
       if (!(isset($_SESSION['email']))) {
@@ -47,7 +47,7 @@
       } else {
         $name = $_SESSION['name'];;
 
-        include_once '/app/dbConnection.php';
+        include_once 'dbConnection.php';
         echo '<span class="pull-right top title1" ><span class="log1">&nbsp;&nbsp;<a href="logout.php?q=account.php" class="log"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>&nbsp;Cerrar Sesión</button></a></span>';
       } ?>
 
