@@ -25,7 +25,7 @@
 
 </head>
 <?php
-include_once '/app/dbConnection.php';
+include_once 'dbConnection.php';
 ?>
 
 <body>
